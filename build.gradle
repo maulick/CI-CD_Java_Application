@@ -32,3 +32,9 @@ sonarqube {
         property 'sonar.login', 'a5c3c69175e87b1f3fa1eeaf2e671d07cb81d946'
     }
 }
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+    }
+}
